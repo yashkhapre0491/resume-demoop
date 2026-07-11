@@ -1,4 +1,4 @@
 function showMessage(){
-    document.getElementById("message").innerHTML =
-    "🎉 Congratulations! JavaScript is working on GitHub Pages.";
+    document.getElementById("msg").innerHTML =
+    "Thank you for visiting my portfolio! 😊";
 }
