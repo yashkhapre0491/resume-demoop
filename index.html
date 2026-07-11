@@ -3,20 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Pages Test</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
-    <h1>🚀 GitHub Pages Test Website</h1>
+<header>
+    <h1>Yash Khapre</h1>
+    <p>Computer Engineering Student | Web Developer</p>
+</header>
 
-    <p>If you can see this page, your GitHub Pages website is working successfully.</p>
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <button onclick="showMessage()">Click Me</button>
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hello! I'm Yash, a Computer Engineering student passionate about
+        HTML, CSS, JavaScript, React, and Python.
+    </p>
+</section>
 
-    <h2 id="message"></h2>
-</div>
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Python</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Weather App</h3>
+        <p>Real-time weather application using OpenWeather API.</p>
+    </div>
+
+    <div class="card">
+        <h3>To-Do List</h3>
+        <p>Task manager built with React.js.</p>
+    </div>
+
+    <div class="card">
+        <h3>Pokemon Dashboard</h3>
+        <p>Chart.js dashboard using PokeAPI.</p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <button onclick="showMessage()">Say Hello</button>
+    <p id="msg"></p>
+</section>
+
+<footer>
+    © 2026 Yash Khapre | Portfolio
+</footer>
 
 <script src="script.js"></script>
 
